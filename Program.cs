@@ -23,3 +23,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+FormArrayOfStrings(InitArray, FinalArray);
+PrintArray(FinalArray);
