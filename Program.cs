@@ -1,4 +1,4 @@
-﻿string[] InitArray = new string[5] { "12345", "hello", "=)", "yes", "home"};
+string[] InitArray = new string[5] { "12345", "hello", "=)", "yes", "home"};
 string[] FinalArray = new string[InitArray.Length];
 
 void FormArrayOfStrings(string[] InitArray, string[] FinalArray)
@@ -13,4 +13,13 @@ void FormArrayOfStrings(string[] InitArray, string[] FinalArray)
             count++;
         }
     }
+}
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($" {array[i]} ");
+    }
+    Console.WriteLine();
 }
